@@ -36,5 +36,7 @@ export class AppComponent implements OnInit {
       156,
       'https://wtop.com/wp-content/uploads/2020/06/HEALTHYFRESH.jpg'
     );
+    
+    this.myOtherSnap.setLocation('à la montagne');
   }
 }
