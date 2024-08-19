@@ -12,7 +12,6 @@ export class FaceSnap {
     public imageUrl: string
   ) {
     this.id = crypto.randomUUID().substring(0, 8)
-    console.log(this)
   }
 
   addSnap(): void {
